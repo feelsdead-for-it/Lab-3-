@@ -9,9 +9,9 @@ int main()
 	cin >>a>>b>>c;
 
 	d= a;
-	a= b;
-	b= c;
-	c= d;
+	a= c;
+	c= b;
+	b= d;
 
 	cout <<" "<<a<<" "<<b<<" "<<c<< ends;
 }
