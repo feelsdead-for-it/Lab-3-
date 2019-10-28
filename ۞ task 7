@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string> 
+#include <cmath>
+using namespace std;
+int main()
+{
+	double a,k,m;
+	cin>>a;
+k= a * a; 
+m= a * k; 
+a= m * k; 
+m= a * a; 
+a= a * m;
+	cout <<a<< endl;
+
+}
