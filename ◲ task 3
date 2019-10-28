@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string> 
+#include <cmath>
+using namespace std;
+int main()
+{
+	double a,b,c,d;
+
+	cin >>a>>b>>c;
+
+	d= a;
+	a= b;
+	b= c;
+	c= d;
+
+	cout <<" "<<a<<" "<<b<<" "<<c<< ends;
+}
